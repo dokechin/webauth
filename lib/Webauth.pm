@@ -40,7 +40,6 @@ sub startup {
         );
 
     # Normal route to controller
-    $r->get('/')->to('root#index');
 
     $logged_in->get('/')->to('root#index');
     $r->get('/login')->to(cb => sub {
