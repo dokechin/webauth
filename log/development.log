@@ -1,0 +1,25 @@
+[Mon Nov  4 14:41:47 2013] [debug] Reading config file "/home/user/webauth/webauth.conf".
+[Mon Nov  4 14:41:53 2013] [debug] Reading config file "/home/user/webauth/webauth.conf".
+[Mon Nov  4 14:44:00 2013] [debug] Reading config file "/home/user/webauth/webauth.conf".
+[Mon Nov  4 14:44:04 2013] [debug] Reading config file "/home/user/webauth/webauth.conf".
+[Mon Nov  4 14:44:04 2013] [info] Listening at "http://*:3000".
+[Mon Nov  4 14:44:47 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  4 14:44:47 2013] [debug] GET "/".
+[Mon Nov  4 14:44:47 2013] [debug] Routing to a callback.
+[Mon Nov  4 14:44:47 2013] [debug] 302 Found (0.004710s, 212.314/s).
+[Mon Nov  4 14:44:47 2013] [debug] Routing to controller "Webauth::Root" and action "index".
+[Mon Nov  4 14:44:47 2013] [debug] Rendering template "root/index.html.ep".
+[Mon Nov  4 14:44:47 2013] [debug] Rendering template "layouts/default.html.ep".
+[Mon Nov  4 14:44:47 2013] [debug] GET "/login".
+[Mon Nov  4 14:44:47 2013] [debug] Routing to a callback.
+[Mon Nov  4 14:44:47 2013] [debug] 302 Found (0.004279s, 233.699/s).
+[Mon Nov  4 14:44:49 2013] [debug] GET "/auth/twitter/callback".
+[Mon Nov  4 14:44:56 2013] [debug] GET "/auth/twitter/callback".
+[Mon Nov  4 14:44:56 2013] [debug] Routing to a callback.
+[Mon Nov  4 14:44:56 2013] [debug] 302 Found (0.004072s, 245.580/s).
+[Mon Nov  4 14:44:56 2013] [debug] GET "/".
+[Mon Nov  4 14:44:56 2013] [debug] Routing to a callback.
+[Mon Nov  4 14:44:56 2013] [debug] Routing to controller "Webauth::Root" and action "index".
+[Mon Nov  4 14:44:56 2013] [debug] Rendering template "root/index.html.ep".
+[Mon Nov  4 14:44:56 2013] [debug] Rendering template "layouts/default.html.ep".
+[Mon Nov  4 14:44:56 2013] [debug] 200 OK (0.029271s, 34.164/s).
